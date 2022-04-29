@@ -16,10 +16,10 @@ pip install ontag
 import ontag.boolEval
 
 # returns 'True'
-ontag.boolEval.boolEval("forAll(a, 'integer', \"a * a >= 0\")")
+ontag.boolEval.boolEval("forAll('a', 'integer', \"a * a >= 0\")")
 
 # return 'False'
-ontag.boolEval.boolEval("forAll(a, 'integer', \"a * a > 0\")")
+ontag.boolEval.boolEval("forAll('a', 'integer', \"a * a > 0\")")
 ```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
